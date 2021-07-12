@@ -21,3 +21,4 @@
 //= link slider.revolution/js/jquery.themepunch.revolution.min.js
 //= link slider.revolution/js/jquery.themepunch.tools.min.js
 //= require gmaps/google
+//= require interventions
