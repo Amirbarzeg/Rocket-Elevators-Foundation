@@ -1,0 +1,1 @@
+SELECT id AS CustomerID, "CompanyName" AS CompanyName, "NbElevators" AS TotalElevatorPerCustomer FROM dim_customers;

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Columntype:</strong>
+  <%= @column.ColumnType %>
+</p>
+
+<p>
+  <strong>Nboffloorsserved:</strong>
+  <%= @column.NbOfFloorsServed %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @column.Status %>
+</p>
+
+<p>
+  <strong>Info:</strong>
+  <%= @column.Info %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @column.Notes %>
+</p>
+
+<%= link_to 'Edit', edit_column_path(@column) %> |
+<%= link_to 'Back', columns_path %>

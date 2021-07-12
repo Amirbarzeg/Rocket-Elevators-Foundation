@@ -1,0 +1,86 @@
+<div id="header" class="navbar-toggleable-md sticky header-md clearfix">
+	<!-- TOP NAV -->
+	<header id="topNav">
+		<div class="container">
+			<!-- Mobile Menu Button -->
+			<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+				<i class="fa fa-bars"></i>
+			</button>
+			<!-- Logo -->
+			<a class="logo float-left" href="/index#top">
+				<img src="/assets/logo.png" alt="" />
+			</a>
+			<!-- 
+				Top Nav 
+				
+				AVAILABLE CLASSES:
+				submenu-dark = dark sub menu
+			-->
+			<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+				<nav class="nav-main">
+					<!-- 
+						.nav-onepage
+						Required for onepage navigation links
+						
+						Add .external for an external link!
+					-->
+					<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+						<li class="active"><!-- HOME -->
+							<a href="/index" id="home-nav">
+								HOME
+							</a>
+						</li>
+						<li><!-- SERVICES -->
+							<a href="/index#services" id="services-nav">
+								SERVICES
+							</a>
+						</li>
+						<li><!-- PORTFOLIO -->
+							<a href="/index#portfolio" id="portfolio-nav">
+								PORTFOLIO
+							</a>
+						</li>
+						<li><!-- NEWS -->
+							<a href="/index#news" id="news-nav">
+								NEWS
+							</a>
+						</li>
+						<li><!-- CLIENTS -->
+							<a href="/index#clients" id="clients-nav">
+								CLIENTS
+							</a>
+						</li>
+						<li><!-- CONTACT -->
+							<a href="/index#contact" id="contact-nav">
+								CONTACT
+							</a>
+						</li>
+						
+						<% if has_role?(:admin) %>
+							<li><!-- BACK OFFICE -->
+								<a href="/admin" id="admin-nav">
+									BACK OFFICE
+								</a>
+							</li>
+						<% end %>
+
+						<% if user_signed_in? %> 
+							<li><!-- LOGOUT -->
+								<a href="/users/sign_out" data-method="delete" id="login-nav">
+									LOGOUT
+								</a>
+							</li>
+						<% else %>
+							<li><!-- LOGIN -->
+								<a href="/users/sign_in" id="login-nav">
+									LOGIN
+								</a>
+							</li>
+						<% end %>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- /Top Nav -->
+</div>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ColumnType: MyString
+  NbOfFloorsServed: 1
+  Status: MyString
+  Info: MyText
+  Notes: MyText
+
+two:
+  ColumnType: MyString
+  NbOfFloorsServed: 1
+  Status: MyString
+  Info: MyText
+  Notes: MyText

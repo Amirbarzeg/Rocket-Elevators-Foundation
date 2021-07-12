@@ -1,0 +1,37 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Batteries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Btype</th>
+      <th>Dateofcommissioning</th>
+      <th>Dateoflastinspection</th>
+      <th>Certificateofoperations</th>
+      <th>Info</th>
+      <th>Notes</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @batteries.each do |battery| %>
+      <tr>
+        <td><%= battery.BType %></td>
+        <td><%= battery.DateOfCommissioning %></td>
+        <td><%= battery.DateOfLastInspection %></td>
+        <td><%= battery.CertificateOfOperations %></td>
+        <td><%= battery.Info %></td>
+        <td><%= battery.Notes %></td>
+        <td><%= link_to 'Show', battery %></td>
+        <td><%= link_to 'Edit', edit_battery_path(battery) %></td>
+        <td><%= link_to 'Destroy', battery, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Battery', new_battery_path %>

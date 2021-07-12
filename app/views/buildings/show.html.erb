@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fullnameofthebuildingadministrator:</strong>
+  <%= @building.FullNameOfTheBuildingAdministrator %>
+</p>
+
+<p>
+  <strong>Emailoftheadministratorofthebuilding:</strong>
+  <%= @building.EmailOfTheAdministratorOfTheBuilding %>
+</p>
+
+<p>
+  <strong>Phonenumberofthebuildingadministrator:</strong>
+  <%= @building.PhoneNumberOfTheBuildingAdministrator %>
+</p>
+
+<p>
+  <strong>Fullnameofthetechcontactforthebuilding:</strong>
+  <%= @building.FullNameOfTheTechContactForTheBuilding %>
+</p>
+
+<p>
+  <strong>Techcontactemail:</strong>
+  <%= @building.TechContactEmail %>
+</p>
+
+<p>
+  <strong>Techcontactphone:</strong>
+  <%= @building.TechContactPhone %>
+</p>
+
+<%= link_to 'Edit', edit_building_path(@building) %> |
+<%= link_to 'Back', buildings_path %>

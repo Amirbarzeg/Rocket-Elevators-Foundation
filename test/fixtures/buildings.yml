@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  FullNameOfTheBuildingAdministrator: MyString
+  EmailOfTheAdministratorOfTheBuilding: MyString
+  PhoneNumberOfTheBuildingAdministrator: MyString
+  FullNameOfTheTechContactForTheBuilding: MyString
+  TechContactEmail: MyString
+  TechContactPhone: MyString
+
+two:
+  FullNameOfTheBuildingAdministrator: MyString
+  EmailOfTheAdministratorOfTheBuilding: MyString
+  PhoneNumberOfTheBuildingAdministrator: MyString
+  FullNameOfTheTechContactForTheBuilding: MyString
+  TechContactEmail: MyString
+  TechContactPhone: MyString

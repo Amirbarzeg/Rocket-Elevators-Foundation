@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevators - Quote</title>
+		<meta name="description" content="" />
+
+	</head>
+
+	<body class="enable-animation">
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<div class="container">
+				<br>
+
+				<h1>Request a Quote</h1>
+
+
+				<hr class="m-0" /><!-- 1px line separator -->
+
+				<label>Building Type:</label>
+				<select id="building-type">
+					<option id="commercial" value="commercial" selected="selected">Commercial</option>
+					<option id="residential" value="residential">Residential</option>
+					<option id="corporate" value="corporate">Corporate</option>
+					<option id="hybrid" value="hybrid">Hybrid</option>
+				</select>
+	
+				<div class="row">
+					<div id="number-of-apartments" class="col-md-4">
+						<label>Number of Appartements</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+					<div id="number-of-floors" class="col-md-4">
+						<label>Number of Floors</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+					<div id="number-of-basements" class="col-md-4">
+						<label>Number of Basements</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+					<div id="number-of-companies" class="col-md-4">
+						<label>Number of Companies</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				
+					<div id="number-of-parking-spots" class="col-md-4">
+						<label>Number of Parking Spots</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				
+					<div id="number-of-corporations" class="col-md-4">
+						<label>Number of Corporations</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				
+					<div id="maximum-occupancy" class="col-md-4">
+						<label>Number of Occupancy (per floor)</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				
+					<div id="number-of-elevators" class="col-md-4">
+						<label>Number of Elevators</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				
+					<div id="business-hours" class="col-md-4">
+						<label>Number of Business Hours</label>
+						<input type="number" value="0" min="0"/>
+					</div>
+				</div>
+
+				<hr/><!-- 1px line separator -->
+				
+				<div class="row">
+					<div id="elevator-amount" class="col-md-4">
+						<label>Elevator Amount</label>
+						<input type="number" step="any" readonly value="0"/>
+					</div>
+					<div id="column-amount" class="col-md-4">
+						<label>Columns Amount</label>
+						<input type="number" step="any" readonly value="0"/>
+					</div>
+				</div>
+
+				<h3>Please select a product line:</h3>
+				<div id="product-line">
+					<div class="row">
+						<input type="radio" id="standard" name="productLineIDs" value="standard" checked="true">
+						<label for="standard">Standard</label>
+					</div>
+					<div class="row">
+						<input type="radio" id="premium" name="productLineIDs" value="premium">
+						<label for="premium">Premium</label>
+					</div>
+					<div class="row">
+						<input type="radio" id="excelium"name="productLineIDs" value="excelium">
+						<label for="excelium">Excelium</label>
+					</div>
+				</div>
+
+				<button type="button" class="btn btn-primary btn-lg" id="sumbit-quote">Submit</button>
+
+				<hr/><!-- 1px line separator -->
+
+				<h3>Quote:</h3>
+				<div class="row">
+					<div id="elevator-unit-price" class="col-md-3">
+						<label>Elevator Unit Cost</label>
+						<input type="text" step="any" readonly value=""/>
+					</div>
+					<div id="elevator-total-price" class="col-md-3">
+						<label>Elevator Total Cost</label>
+						<input type="text" step="any" readonly value=""/>
+					</div>
+					<div id="installation-fees" class="col-md-3">
+						<label>Installation Cost</label>
+						<input type="text" step="any" readonly value=""/>
+					</div>
+					<div id="final-price" class="col-md-3">
+						<label>Total</label>
+						<input type="text" step="any" readonly value=""/>
+					</div>
+				</div>
+				
+			</div>
+
+			<hr/><!-- 1px line separator -->
+
+		</div>
+		<!-- /wrapper -->
+
+
+		<!-- JAVASCRIPT FILES -->
+
+		<!-- PAGELEVEL SCRIPTS -->
+		<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
+		<%= javascript_include_tag "quote" %>
+		
+
+	</body>
+</html>

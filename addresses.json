@@ -1,0 +1,1201 @@
+{
+    "Address" : [{
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "3512 40 Ave NW",
+        "Apt": "",
+        "City": "Edmonton",
+        "PostalCode": "T6L 6N8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "101-9170 Mary St",
+        "Apt": "",
+        "City": "Chilliwack",
+        "PostalCode": "V2P 4H9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "3146 Brookview Way",
+        "Apt": "",
+        "City": "Stony Plain",
+        "PostalCode": "T7Z 2X7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "87 Woodacres Cres SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2W 4V5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "27488 12B Ave",
+        "Apt": "",
+        "City": "Aldergrove",
+        "PostalCode": "V4W 2P6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "375 Darlington-Clarke Townline Rd",
+        "Apt": "",
+        "City": "Newcastle",
+        "PostalCode": "VL1B 1L9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "5715 Ninth St",
+        "Apt": "",
+        "City": "Windsor",
+        "PostalCode": "N9H 1P3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "516 Inverness Cove SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2Z 3L2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "63 Storrie Rd",
+        "Apt": "",
+        "City": "Campbell River",
+        "PostalCode": "V9H 1H5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "PO Box 153",
+        "Apt": "",
+        "City": "Boyle",
+        "PostalCode": "T0A 0M0",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "5811 52 Ave",
+        "Apt": "",
+        "City": "Beaumont",
+        "PostalCode": "T4X 1B5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "295 Chabot Rue",
+        "Apt": "",
+        "City": "Contrecoeur",
+        "PostalCode": "J0L 1C0",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "3700 Nootka St",
+        "Apt": "",
+        "City": "Abbotsford",
+        "PostalCode": "V2T 5A4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "16 Elliottglen Dr",
+        "Apt": "",
+        "City": "Ajax",
+        "PostalCode": "L1Z 0H5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "NB",
+        "Entity": "",
+        "NumberAndStreet": "21 Conway Rue",
+        "Apt": "",
+        "City": "Edmundston",
+        "PostalCode": "E3V 1Z2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "955204 Canning",
+        "Apt": "",
+        "City": "Princeton",
+        "PostalCode": "N0J 1V0",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "41366 Dryden Rd",
+        "Apt": "",
+        "City": "Brackendale",
+        "PostalCode": "V0N 1H0",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "54 Cityview Cir",
+        "Apt": "",
+        "City": "Barrie",
+        "PostalCode": "L4N 7V1",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "9019 139 St",
+        "Apt": "",
+        "City": "Edmonton",
+        "PostalCode": "T5R 0G9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "5888 Sea Terrace Rd",
+        "Apt": "",
+        "City": "Courtenay",
+        "PostalCode": "V9J 1W1",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "3308 Ash St",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5Z 3E3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "2485 Broadway W 414",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 2E8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "275 28th Ave E",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5V 2M5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "106 588 45th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5Z 4S3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "563 Union St",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6A 2B7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "3007 8th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 2C2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "110 2255 W 8th",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 2A6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "408 2260 W 10th",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 2H8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "201 151 14th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5Y 1W8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "1487 27th Ave E",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5N 2W6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "11949 Comox St 305",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6G 1R7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "11949 Comox St 305",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6G 1R7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "5980 Battison St",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5R 4M8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "55 12th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5Y 1T4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "1410 Tolmie St",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6R 4B3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "2 2536 7th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 1Y9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "2439 7th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 1Y6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "2303 621 57th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6P 6P5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "22425 7th Ave W",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V6K 1Y6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "BC",
+        "Entity": "",
+        "NumberAndStreet": "2488 734th Ave",
+        "Apt": "",
+        "City": "Vancouver",
+        "PostalCode": "V5R 2S9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "300 Front St W",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5V 0E9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "500 Kingston Rd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4L 1V3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "315 St Germain Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5M 1W4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "234 Willow Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 3K7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "48 St Clair Ave W",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4V 2Z2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "1974 Queen St E",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4L 1H8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "42 Balsam Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 3B4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "58 Waverley Rd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4L 3T6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "101 Hillingdon Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4C 3H9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "124 Hammersmith Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 2W4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "102 Elmer Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4L 3R8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "1304 Berkeley St",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5A 2X5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "8 Oliver Mews",
+        "City": "Toronto",
+        "Apt": "",
+        "PostalCode": "M4L 3E4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "300 Silver Birch Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 3L5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "48 Norwood Rd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 2S2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "717 Broadview Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4K 2P5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "65 Harbour Sq",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "MM5J 2L4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "127 Scarborough Rd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M4E 3M4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "17 Whitaker Ave",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M6J 1A2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "290 Bremner Blvd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5V 3L9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Corporate",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "255 Bremner Blvd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5V 3M9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Corporate",
+        "Status": "ON",
+        "Entity": "",
+        "NumberAndStreet": "255 Bremner Blvd",
+        "Apt": "",
+        "City": "Toronto",
+        "PostalCode": "M5V 3M9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "83 Citdl Mdw Grove NW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T3K 1B6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "6912 Lefroy Crt SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T3E 6G9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "4913 16 Ave SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2A 0P1",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "39 Hillgrove Cres SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2V 3K8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "1127 8 St SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2G 2Z6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "3626 7 St SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2T 2Y1",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "15 Bermuda Rd NW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T3K 1G5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "343 Penswood Way SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2A 4T4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "475 Canterbury Dr SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2W 1J4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "1828 62 Ave SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2C 0B5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "12 Stradbrooke Rise SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T3H 1T9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "12 Oaklawn Pl SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2V 3Z1",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "308 Canterbury Pl SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2W 2B5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "368 Norseman Rd NW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2K 5M5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "40 Parkridge View SE 404",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2J 7G6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "231 Theodore Pl NW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2K 5L7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "3131 63 Ave SW",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T3E 6N4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "AB",
+        "Entity": "",
+        "NumberAndStreet": "16 Inverness Cove SE",
+        "Apt": "",
+        "City": "Calgary",
+        "PostalCode": "T2Z 3L2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "6817 43 Av",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H1T 2R9",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "7503 Rue St Denis",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H2R 2E7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "11727 Rue Notre Dame E",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H1B 2X8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "5745 17 Av",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H1X 2R7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "3708 Rue St Hubert",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H2L 4A2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "5930 Rue Hurteau",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H4E 2Y2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "2630 St Germain Street",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H1W 2V3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "6730 44 Av",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H1T 2P2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "1940 Jolicoeur Street",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H4E 4M2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "5240 Randall Av",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H4V 2V3",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "3555 Edouard-Montpetit",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H3T 1K7",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "391 Rue de la Congrégation",
+        "Apt": "",
+        "City": "Montreal",
+        "PostalCode": "H3K 2H8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "1092 Rue Du Prince Albert",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G2L 1C2",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "5090 Av De Vaudreuil",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1H 2K8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "1635 Pl Du Trocadero",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1G 3G4",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "3086 Rue des Châtelets",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1V 3Y5",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "2905 Rue Du Grand Voyer",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1W 0C8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "1068 Av De La Montagne O",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G3K 1V6",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "799 Rue du Balkan",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1B 3S8",
+        "Country": "Canada",
+        "Notes": ""
+    },
+
+    {
+        "TypeOfAddress": "Residential",
+        "Status": "QC",
+        "Entity": "",
+        "NumberAndStreet": "572 Av Royale",
+        "Apt": "",
+        "City": "Quebec",
+        "PostalCode": "G1E 1Y1",
+        "Country": "Canada",
+        "Notes": ""
+    }]
+}

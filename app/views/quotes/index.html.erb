@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Quotes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Buildingtype</th>
+      <th>Numberoffloors</th>
+      <th>Numberofbasements</th>
+      <th>Numberofcompanies</th>
+      <th>Numberofparkingspots</th>
+      <th>Numberofelevators</th>
+      <th>Numberofapartments</th>
+      <th>Numberofcorporations</th>
+      <th>Numberofoccupany</th>
+      <th>Numberofbusinesshours</th>
+      <th>Elevatoramount</th>
+      <th>Columnamount</th>
+      <th>Productline</th>
+      <th>Elevatorunitcost</th>
+      <th>Elevatortotalcost</th>
+      <th>Installationcost</th>
+      <th>Totalprice</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quotes.each do |quote| %>
+      <tr>
+        <td><%= quote.BuildingType %></td>
+        <td><%= quote.NumberOfFloors %></td>
+        <td><%= quote.NumberOfBasements %></td>
+        <td><%= quote.NumberOfcompanies %></td>
+        <td><%= quote.NumberOfParkingSpots %></td>
+        <td><%= quote.NumberOfElevators %></td>
+        <td><%= quote.NumberOfApartments %></td>
+        <td><%= quote.NumberOfCorporations %></td>
+        <td><%= quote.NumberOfOccupany %></td>
+        <td><%= quote.NumberOfBusinessHours %></td>
+        <td><%= quote.ElevatorAmount %></td>
+        <td><%= quote.ColumnAmount %></td>
+        <td><%= quote.ProductLine %></td>
+        <td><%= quote.ElevatorUnitCost %></td>
+        <td><%= quote.ElevatorTotalCost %></td>
+        <td><%= quote.InstallationCost %></td>
+        <td><%= quote.TotalPrice %></td>
+        <td><%= link_to 'Show', quote %></td>
+        <td><%= link_to 'Edit', edit_quote_path(quote) %></td>
+        <td><%= link_to 'Destroy', quote, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Quote', new_quote_path %>

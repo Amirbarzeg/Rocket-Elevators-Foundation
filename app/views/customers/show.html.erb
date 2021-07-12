@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Companyname:</strong>
+  <%= @customer.CompanyName %>
+</p>
+
+<p>
+  <strong>Nameofcontact:</strong>
+  <%= @customer.NameOfContact %>
+</p>
+
+<p>
+  <strong>Companycontactphone:</strong>
+  <%= @customer.CompanyContactPhone %>
+</p>
+
+<p>
+  <strong>Emailofthecompany:</strong>
+  <%= @customer.EmailOfTheCompany %>
+</p>
+
+<p>
+  <strong>Companydescription:</strong>
+  <%= @customer.CompanyDescription %>
+</p>
+
+<p>
+  <strong>Nameofservicetechauthority:</strong>
+  <%= @customer.NameOfServiceTechAuthority %>
+</p>
+
+<p>
+  <strong>Techauhtorityphone:</strong>
+  <%= @customer.TechAuhtorityPhone %>
+</p>
+
+<p>
+  <strong>Techmanagerserviceemail:</strong>
+  <%= @customer.TechManagerServiceEmail %>
+</p>
+
+<%= link_to 'Edit', edit_customer_path(@customer) %> |
+<%= link_to 'Back', customers_path %>

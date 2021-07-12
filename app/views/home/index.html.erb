@@ -1,0 +1,62 @@
+
+<html>
+	<head>
+    </head>
+	<body>
+		<div id="wrapper">
+            <h1>Home#index</h1>
+            <p>Find me in app/views/home/index.html.erb</p>
+
+            <% company1 = Faker::Company %>
+            <p><%= company1.name %></p>
+
+            <% if user_signed_in? %> 
+            	<p>you are logged in!</p>
+            <% else %>
+            	<p>you are NOT logged in!</p>
+            <% end %>
+
+
+            <%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
+            <script>
+            function a() {
+                 $.ajax({
+                    url:'/home/testpost',
+                    type:'POST',
+                    dataType:'json',
+                    data:{
+                        myparam1: "First Param value",
+                        myparam2: "Second param value",
+                        authenticity_token: window._token
+                    },
+                    success:function(data){
+                    
+                    },
+                    error:function(data){
+                    
+                    }
+                });
+            };
+            </script>
+
+            <style>
+                .button {
+                  border: none;
+                  color: white;
+                  padding: 15px 32px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 16px;
+                  margin: 4px 2px;
+                  cursor: pointer;
+                  background-color: #008CBA;
+                }
+            </style>
+
+            <button type="button" class="button" onclick="a()">Click Me!</button>
+
+            <%= image_url("/assets/logo.png") %>
+        </div>
+    </body>
+</html>

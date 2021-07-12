@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" href="/assets/icon.png">
+		<%= csrf_meta_tags %>
+		<%= csp_meta_tag %>
+	
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+		
+		<%= stylesheet_link_tag	'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600%7CRaleway:300,400,500,600,700%7CLato:300,400,400italic,600,700" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="wrapper">
+		
+			<%= render 'header' %>
+
+			<%= yield %>
+			
+			<%= render 'footer' %>
+
+		</div>
+	
+		<!-- SCROLL TO TOP -->
+		<a href="#" id="toTop"></a>
+
+		<!-- PRELOADER -->
+		<div id="preloader">
+			<div class="inner">
+				<span class="loader"></span>
+			</div>
+		</div><!-- /PRELOADER -->
+
+		<p class="notice"><%= notice %></p>
+
+		<%= javascript_include_tag "scripts" , 'data-turbolinks-track': 'reload' %>
+	</body>
+</html>

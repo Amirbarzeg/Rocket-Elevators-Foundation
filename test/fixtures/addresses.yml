@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  TypeOfAddress: MyString
+  Status: MyString
+  Entity: MyString
+  NumberAndStreet: MyString
+  Apt: MyString
+  City: MyString
+  PostalCode: MyString
+  Country: MyString
+  Notes: MyText
+
+two:
+  TypeOfAddress: MyString
+  Status: MyString
+  Entity: MyString
+  NumberAndStreet: MyString
+  Apt: MyString
+  City: MyString
+  PostalCode: MyString
+  Country: MyString
+  Notes: MyText
