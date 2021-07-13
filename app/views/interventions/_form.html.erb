@@ -1,0 +1,56 @@
+<div class="container intervention-style">
+
+  <%= form_tag(interventions_path) do %>
+
+                                      <!-- Author / Employee authentication -->
+
+    <div class="col-6 fancy-form fancy-form-select">
+      <div class="field" id="intervention_employee_id">
+        <%= label_tag "employee", "Employee" %>
+        <%= select_tag "employee", options_from_collection_for_select(Employee.order(:LastName), :id, :LastName, :include_blank => "Select an Employee") %>
+      </div>
+    </div>
+
+                                      <!-- Selection field for the Intervention fillout form -->
+
+    <div class="col-6 fancy-form fancy-form-select">                                        
+      <div class="field" id="intervention_customer_id">
+        <%= label_tag "customer", "Customer" %>      
+        <%= select_tag "customer", options_from_collection_for_select(Customer.order(:NameOfContact), :id, :NameOfContact), {:include_blank => "Select a Customer", :required => true} %>
+      </div>
+
+      <div class="field" id="intervention_building_id">
+        <%= label_tag "building", "Building" %>
+        <%= select_tag "building", options_from_collection_for_select(Building.order(:id), :id, :FullNameOfTheBuildingAdministrator), {:required => true} %>
+      </div>
+
+      <div class="field" id="intervention_battery_id">
+        <%= label_tag "battery", "Battery" %>
+        <%= select_tag "battery", options_from_collection_for_select(Battery.order(:id), :id, :id) %>
+      </div>
+
+      <div class="field" id="intervention_column_id">
+        <%= label_tag "column", "Column" %>
+        <%= select_tag "column", options_from_collection_for_select(Column.order(:id), :id, :id) %>
+      </div>
+
+      <div class="field" id="intervention_elevator_id">
+        <%= label_tag "elevator", "Elevator" %>
+        <%= select_tag "elevator", options_from_collection_for_select(Elevator.order(:id), :id, :id) %>
+      </div>
+
+      <div class="field">
+        <%= label_tag "report", "Report" %>
+        <%= text_area_tag "report", nil, :required => true %>
+
+                                      <!-- Submit Button -->
+
+        <!--SUBMIT BUTTON -->
+          <button class="btn btn-outline-secondary" type="submit">SUBMIT<button>
+        <!--SUBMIT BUTTON -->
+      </div>
+      <i class="fancy-arrow-"></i>
+    </div>
+
+  <% end %>
+</div>

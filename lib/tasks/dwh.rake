@@ -16,7 +16,7 @@ namespace :dwh do
   end
 
   task clear: :environment do
-    conn = PG.connect(host: 'codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com', user: 'codeboxx', dbname: 'LukaGasicDataWarehouse', password: 'Codeboxx1!')
+    conn = PG.connect(host: "localhost", user: 'postgres', dbname: 'datawarehouse_development', password: 'postgres')
     puts "Clearing DWH data structure"
     conn.exec("TRUNCATE fact_quotes, fact_contacts, fact_elevators, dim_customers")
     puts "Cleared DWH data structure"
@@ -25,7 +25,7 @@ namespace :dwh do
   desc "Import from MySQL data to Postgres"
   task import: :environment do
     Rake::Task["dwh:clear"].invoke()
-    conn = PG.connect(host: 'codeboxx-postgresql.cq6zrczewpu2.us-east-1.rds.amazonaws.com', user: 'codeboxx', dbname: 'LukaGasicDataWarehouse', password: 'Codeboxx1!')
+    conn = PG.connect(host: "localhost", user: 'postgres', dbname: 'datawarehouse_development', password: 'postgres')
     puts "Rebuilding DWH data structure"
 
     puts "    Building fact_quotes data structure"

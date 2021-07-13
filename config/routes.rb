@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :interventions do 
+	get :get_buildings, on: :collection
+	get :get_batteries, on: :collection
+	get :get_columns, on: :collection
+	get :get_elevators, on: :collection
+  end 
   resources :leads
   resources :elevators
   resources :columns
@@ -14,9 +20,15 @@ Rails.application.routes.draw do
 	get "/index", to: "rocket#index"
 	get "/quote", to: "rocket#quote"
 	get "/residential", to: "rocket#residential"
+	get "/intervention", to: "interventions#index"
+	get "/get_buildings/:customer_id", to: "interventions#get_buildings"
+	get "/get_batteries/:building_id", to: "interventions#get_batteries"
+	get "/get_columns/:battery_id", to: "interventions#get_columns"
+	get "/get_elevators/:column_id", to: "interventions#get_elevators"
 	get "/commercial", to: "rocket#commercial"
 	mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 	post "/admin/briefing/watsonbriefing", to: "watson#watsonBriefing"
+	post "/interventions" => "interventions#create"
 	resources :employees
 	get 'home/index'
 	get 'home_controller/index'
