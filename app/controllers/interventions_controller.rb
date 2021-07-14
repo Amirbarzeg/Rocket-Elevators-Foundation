@@ -21,7 +21,6 @@ class InterventionsController < ApplicationController
 
   # POST /interventions or /interventions.json
   def create
-    puts "Creating the Magic"
     employee = Employee.find_by(user_id: current_user.id)
     puts employee.id
 
@@ -49,7 +48,7 @@ class InterventionsController < ApplicationController
       
 
     if @intervention.save!
-      redirect_back fallback_location: root_path, notice: "Intervention Successful"
+      redirect_back fallback_location: root_path, notice: "Intervention Was Sent"
     end
   end
 
@@ -108,7 +107,6 @@ class InterventionsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
     def set_intervention
       @intervention = Intervention.find(params[:id])
     end
