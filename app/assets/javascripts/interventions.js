@@ -12,15 +12,15 @@ $(function () {
        $("#intervention_column_id option").remove()
        $("#intervention_elevator_id option").remove()
  
-       var building_option = "<option value=''>Building</option>";
-       var battery_option = "<option value=''>Battery</option>";
-       var column_option = "<option value=''>None</option>";
-       var elevator_option = "<option value=''>None</option>";
+       var building = "<option value=''>Building</option>";
+       var battery = "<option value=''>Battery</option>";
+       var column = "<option value=''>None</option>";
+       var elevator= "<option value=''>None</option>";
  
-       $(building_option).appendTo("#intervention_building_id select");
-       $(battery_option).appendTo("#intervention_battery_id select");
-       $(column_option).appendTo("#intervention_column_id select"); 
-       $(elevator_option).appendTo("#intervention_elevator_id select");
+       $(building).appendTo("#intervention_building_id select");
+       $(battery).appendTo("#intervention_battery_id select");
+       $(column).appendTo("#intervention_column_id select"); 
+       $(elevator).appendTo("#intervention_elevator_id select");
     }
  
     $("#intervention_customer_id select").change(function () {
@@ -34,21 +34,22 @@ $(function () {
           $("#intervention_column_id").hide()
           $("#intervention_elevator_id").hide()
  
-          // # Clear the option fields of all the other select fields
+          
           $("#intervention_building_id option").remove()
           $("#intervention_battery_id option").remove()
           $("#intervention_column_id option").remove()
           $("#intervention_elevator_id option").remove()
 
-          var building_option = "<option value=''>Building</option>";
-          var battery_option = "<option value=''>Battery</option>";
-          var column_option = "<option value=''>None</option>";
-          var elevator_option = "<option value=''>None</option>";
- 
-          $(building_option).appendTo("#intervention_building_id select");
-          $(battery_option).appendTo("#intervention_battery_id select");
-          $(column_option).appendTo("#intervention_column_id select"); 
-          $(elevator_option).appendTo("#intervention_elevator_id select");
+          var building = "<option value=''>Building</option>";
+          var battery = "<option value=''>Battery</option>";
+          var column = "<option value=''>None</option>";
+          var elevator= "<option value=''>None</option>";
+          
+          $(building).appendTo("#intervention_building_id select");
+          $(battery).appendTo("#intervention_battery_id select");
+          $(column).appendTo("#intervention_column_id select"); 
+          $(elevator).appendTo("#intervention_elevator_id select");
+          
        } else { 
           $.ajax({
              dataType: "json",
@@ -70,38 +71,30 @@ $(function () {
        }
     });
  
-    // # We want something to happen when the value changes
+    
     $("#intervention_building_id select").change(function () {
-       // # Get the value of the selected option
        var value = $(this).val();
  
        if (value == "") {
-          // # Re-hide the following fields
           $("#intervention_battery_id").hide()
           $("#intervention_column_id").hide()
           $("#intervention_elevator_id").hide()
  
-          // # Clear the option fields of all the other select fields
           $("#intervention_battery_id option").remove()
           $("#intervention_column_id option").remove()
           $("#intervention_elevator_id option").remove()
  
-          // # Create an option field for each select
-          var battery_option = "<option value=''>Battery</option>";
-          var column_option = "<option value=''>None</option>";
-          var elevator_option = "<option value=''>None</option>";
+          var battery = "<option value=''>Battery</option>";
+          var column = "<option value=''>None</option>";
+          var elevator= "<option value=''>None</option>";
  
-          // # Insert that option field
           $(battery_option).appendTo("#intervention_battery_id select");
           $(column_option).appendTo("#intervention_column_id select"); 
           $(elevator_option).appendTo("#intervention_elevator_id select");
  
-       // # If a selection has been made
        } else { console.log("haha");
-          // # Show the battery field
           $("#intervention_battery_id").show()
  
-          // # Send the request and update course dropdown
           $.ajax({
           dataType: "json",
           cache: false,
@@ -111,59 +104,45 @@ $(function () {
              alert("Failed to submit:" + errorTextStatus + error);
           },
           success: (data) => {
-             // # Clear the option fields of all the other select fields
              $("#intervention_battery_id option").remove()
              $("#intervention_column_id option").remove()
              $("#intervention_elevator_id option").remove()
  
-             // # Create an option field for each select
-             var battery_option = "<option value=''>Battery</option>";
-             var column_option = "<option value=''>None</option>";
-             var elevator_option = "<option value=''>None</option>";
+             var battery = "<option value=''>Battery</option>";
+             var column = "<option value=''>None</option>";
+             var elevator= "<option value=''>None</option>";
  
-             // # Insert that option field
-             $(battery_option).appendTo("#intervention_battery_id select");
-             $(column_option).appendTo("#intervention_column_id select"); 
-             $(elevator_option).appendTo("#intervention_elevator_id select");
+             $(battery).appendTo("#intervention_battery_id select");
+             $(column).appendTo("#intervention_column_id select"); 
+             $(elevator).appendTo("#intervention_elevator_id select");
  
-             // # Fill the select field
-             $.each(data, function (i, j) {
-                option = "<option value=\"" + j.id + "\">" + j.id + "</option>";
-                $(option).appendTo("#intervention_battery_id select");
-             });
+             for(var i = 0; i < data.length; i++){ 
+               $("#intervention_battery_id select").append('<option value="' + data[i]["id"] +  '">' + data[i]["id"]+'</option>');
+          };
           }
           });
        }
     });
  
-    // # We want something to happen when the value changes
     $("#intervention_battery_id select").change(function () {
-       // # Get the value of the selected option
        var value = $(this).val();
  
        if (value == "") {
-          // # Re-hide the following fields
           $("#intervention_column_id").hide()
           $("#intervention_elevator_id").hide()
  
-          // # Clear the option fields of all the other select fields
           $("#intervention_column_id option").remove()
           $("#intervention_elevator_id option").remove()
  
-          // # Create an option field for each select
-          var column_option = "<option value=''>None</option>";
-          var elevator_option = "<option value=''>None</option>";
+          var column = "<option value=''>None</option>";
+          var elevator= "<option value=''>None</option>";
  
-          // # Insert that option field
-          $(column_option).appendTo("#intervention_column_id select"); 
-          $(elevator_option).appendTo("#intervention_elevator_id select");
+          $(column).appendTo("#intervention_column_id select"); 
+          $(elevator).appendTo("#intervention_elevator_id select");
  
-       // # If a selection has been made
        } else {
-          // # Show/Hide appropriate elements
           $("#intervention_column_id").show();
  
-          // # Send the request and update course dropdown
           $.ajax({
              dataType: "json",
              cache: false,
@@ -173,52 +152,38 @@ $(function () {
                 alert("Failed to submit:" + errorTextStatus + error);
              },
              success: (data) => {
-                // # Clear the option fields of all the other select fields
                 $("#intervention_column_id option").remove()
                 $("#intervention_elevator_id option").remove()
- 
-                // # Create an option field for each select
-                var column_option = "<option value=''>None</option>";
-                var elevator_option = "<option value=''>None</option>";
- 
-                // # Insert that option field
-                $(column_option).appendTo("#intervention_column_id select"); 
-                $(elevator_option).appendTo("#intervention_elevator_id select");
- 
-                // # Fill the select field
-                $.each(data, function (i, j) {
-                   option = "<option value=\"" + j.id + "\">" + j.id + "</option>";
-                   $(option).appendTo("#intervention_column_id select");
-                });
+
+                var column = "<option value=''>None</option>";
+                var elevator= "<option value=''>None</option>";
+                
+                $(column).appendTo("#intervention_column_id select"); 
+                $(elevator).appendTo("#intervention_elevator_id select");
+                
+                for(var i = 0; i < data.length; i++){ 
+                  $("#intervention_column_id select").append('<option value="' + data[i]["id"] +  '">' + data[i]["id"]+'</option>');
+             };
              }
           });
        }
     });
  
-    // # We want something to happen when the value changes
     $("#intervention_column_id select").change(function () {
-       // # Get the value of the selected option
        var value = $(this).val();
  
        if (value == "") {
-          // # Re-hide the following fields
           $("#intervention_elevator_id").hide()
  
-          // # Clear the option fields of all the other select fields
           $("#intervention_elevator_id option").remove()
  
-          // # Create an option field for each select
-          var elevator_option = "<option value=''>None</option>";
+          var elevator= "<option value=''>None</option>";
+          
+          $(elevator).appendTo("#intervention_elevator_id select");
  
-          // # Insert that option field
-          $(elevator_option).appendTo("#intervention_elevator_id select");
- 
-       // # If a selection has been made
        } else {
-          // # Show/Hide appropriate elements
           $("#intervention_elevator_id").show();
  
-          // # Send the request and update the dropdown
           $.ajax({
              dataType: "json",
              cache: false,
@@ -228,20 +193,16 @@ $(function () {
                 alert("Failed to submit:" + errorTextStatus + error);
              },
              success: (data) => {
-                // # Clear the option fields of all the other select fields
                 $("#intervention_elevator_id option").remove()
  
-                // # Create an option field for each select
-                var elevator_option = "<option value=''>None</option>";
+                var elevator= "<option value=''>None</option>";
  
-                // # Insert that option field 
-                $(elevator_option).appendTo("#intervention_elevator_id select");
+               
+                $(elevator).appendTo("#intervention_elevator_id select");
  
-                // # Fill the select field
-                $.each(data, function (i, j) {
-                   option = "<option value=\"" + j.id + "\">" + j.id + "</option>";
-                   $(option).appendTo("#intervention_elevator_id select");
-                });
+                for(var i = 0; i < data.length; i++){ 
+                  $("#intervention_elevator_id select").append('<option value="' + data[i]["id"] +  '">' + data[i]["id"]+'</option>');
+             };
              }
           });
        }

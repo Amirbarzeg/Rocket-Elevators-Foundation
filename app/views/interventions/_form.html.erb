@@ -2,16 +2,12 @@
 
   <%= form_tag(interventions_path) do %>
 
-                                      <!-- Author / Employee authentication -->
-
     <div class="col-6 fancy-form fancy-form-select">
       <div class="field" id="intervention_employee_id">
         <%= label_tag "employee", "Employee" %>
         <%= select_tag "employee", options_from_collection_for_select(Employee.order(:LastName), :id, :LastName, :include_blank => "Select an Employee") %>
       </div>
     </div>
-
-                                      <!-- Selection field for the Intervention fillout form -->
 
     <div class="col-6 fancy-form fancy-form-select">                                        
       <div class="field" id="intervention_customer_id">
@@ -43,11 +39,7 @@
         <%= label_tag "report", "Report" %>
         <%= text_area_tag "report", nil, :required => true %>
 
-                                      <!-- Submit Button -->
-
-        <!--SUBMIT BUTTON -->
-          <button class="btn btn-outline-secondary" type="submit">SUBMIT<button>
-        <!--SUBMIT BUTTON -->
+          <button class="btn btn-danger" type="submit">SUBMIT</button>
       </div>
       <i class="fancy-arrow-"></i>
     </div>
