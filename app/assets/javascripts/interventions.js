@@ -88,9 +88,9 @@ $(function () {
           var column = "<option value=''>None</option>";
           var elevator= "<option value=''>None</option>";
  
-          $(battery_option).appendTo("#intervention_battery_id select");
-          $(column_option).appendTo("#intervention_column_id select"); 
-          $(elevator_option).appendTo("#intervention_elevator_id select");
+          $(battery).appendTo("#intervention_battery_id select");
+          $(column).appendTo("#intervention_column_id select"); 
+          $(elevator).appendTo("#intervention_elevator_id select");
  
        } else { console.log("haha");
           $("#intervention_battery_id").show()

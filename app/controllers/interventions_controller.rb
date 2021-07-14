@@ -27,7 +27,7 @@ class InterventionsController < ApplicationController
     @current_user_id = current_user.id 
       customer = params[:customer]
       column = params[:column]
-      elevator = params[:elevator]
+      elevator = params[:elevator] 
       battery = params[:battery]
 
     @intervention = Intervention.new({
@@ -50,6 +50,7 @@ class InterventionsController < ApplicationController
     if @intervention.save!
       redirect_back fallback_location: root_path, notice: "Intervention Was Sent"
     end
+
   end
 
   def get_buildings
@@ -69,7 +70,7 @@ class InterventionsController < ApplicationController
   end
 
   def get_columns
-    @columns = Column.where(battery_id: params[:battery_id])
+    @columns = Column.where(battery_id: params[:battery_id]) 
 
     respond_to do |format|
       format.json { render :json => @columns}
@@ -77,7 +78,7 @@ class InterventionsController < ApplicationController
   end
 
   def get_elevators
-    @elevators = Elevator.where(column_id: params[:column_id])
+    @elevators = Elevator.where(column_id: params[:column_id] ) 
 
     respond_to do |format|
       format.json { render :json => @elevators}
