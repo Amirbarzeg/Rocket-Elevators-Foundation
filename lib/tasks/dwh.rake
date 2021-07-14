@@ -9,7 +9,7 @@ namespace :dwh do
   end
 
   task :connection_postgres  do 
-    conn = PG.connect( dbname: 'LukaGasicDataWarehouse', password: 'postgres')
+    conn = PG.connect( dbname: 'datawarehouse_development', password: 'postgres')
     puts conn
     puts "connection postgres"
 
