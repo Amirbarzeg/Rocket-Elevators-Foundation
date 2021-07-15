@@ -1,6 +1,6 @@
 class InterventionsController < ApplicationController
   before_action :set_intervention, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
+  
   # GET /interventions or /interventions.json
   def index
     @interventions = Intervention.all
@@ -106,7 +106,7 @@ class InterventionsController < ApplicationController
       format.json { head :no_content }
     end
   end
-
+  skip_before_action :verify_authenticity_token
   private
     def set_intervention
       @intervention = Intervention.find(params[:id])
@@ -116,4 +116,5 @@ class InterventionsController < ApplicationController
     def intervention_params
       params.require(:intervention).permit(:name, :username)
     end
+    
 end
