@@ -1,6 +1,5 @@
 class InterventionsController < ApplicationController
   before_action :set_intervention, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
   # GET /interventions or /interventions.json
   def index
     @interventions = Intervention.all
