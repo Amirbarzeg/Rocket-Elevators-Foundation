@@ -1,6 +1,5 @@
 class BatteriesController < ApplicationController
   before_action :set_battery, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
   # GET /batteries or /batteries.json
   def index
     @batteries = Battery.all

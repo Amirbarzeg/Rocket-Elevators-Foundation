@@ -1,6 +1,5 @@
 class BuildingDetailsController < ApplicationController
   before_action :set_building_detail, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
   # GET /building_details or /building_details.json
   def index
     @building_details = BuildingDetail.all
