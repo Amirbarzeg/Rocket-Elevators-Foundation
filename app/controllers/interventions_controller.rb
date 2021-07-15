@@ -106,7 +106,6 @@ class InterventionsController < ApplicationController
       format.json { head :no_content }
     end
   end
-  skip_before_action :verify_authenticity_token
   private
     def set_intervention
       @intervention = Intervention.find(params[:id])
