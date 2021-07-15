@@ -1,6 +1,6 @@
 class EmployeesController < ApplicationController
   before_action :set_employee, only: %i[ show edit update destroy ]
-
+  skip_before_action :verify_authenticity_token
   # GET /employees or /employees.json
   def index
     @employees = Employee.all

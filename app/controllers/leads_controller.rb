@@ -1,7 +1,7 @@
 class LeadsController < ApplicationController
   before_action :set_lead, only: %i[ show edit update destroy ]
   # after_create UserNotifierMailer.send_confirmation_email(@lead).deliver
-
+  skip_before_action :verify_authenticity_token
   # consumer = Dropbox::API::OAuth.consumer(:authorize)
   # request_token = consumer.get_request_token
   # # Store the token and secret so after redirecting we have the same request token

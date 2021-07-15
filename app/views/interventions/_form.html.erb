@@ -16,27 +16,27 @@
       </div>
 
       <div class="field" id="intervention_building_id">
-        <%= label_tag "building", "Building" %>
+        <%= label_tag "Building" %>
         <%= select_tag "building", options_from_collection_for_select(Building.order(:id), :id, :FullNameOfTheBuildingAdministrator), {:required => true} %>
       </div>
 
       <div class="field" id="intervention_battery_id">
-        <%= label_tag "battery", "Battery" %>
+        <%= label_tag "Battery" %>
         <%= select_tag "battery", options_from_collection_for_select(Battery.order(:id), :id, :id) %>
       </div>
 
       <div class="field" id="intervention_column_id">
-        <%= label_tag "column", "Column" %>
+        <%= label_tag "Column" %>
         <%= select_tag "column", options_from_collection_for_select(Column.order(:id), :id, :id) %>
       </div>
 
       <div class="field" id="intervention_elevator_id">
-        <%= label_tag "elevator", "Elevator" %>
+        <%= label_tag "Elevator" %>
         <%= select_tag "elevator", options_from_collection_for_select(Elevator.order(:id), :id, :id) %>
       </div>
 
       <div class="field">
-        <%= label_tag "report", "Report" %>
+        <%= label_tag "Report" %>
         <%= text_area_tag "report", nil, :required => true %>
 
           <button class="btn btn-danger" type="submit">SUBMIT</button>

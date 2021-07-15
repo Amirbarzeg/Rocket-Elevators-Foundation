@@ -1,6 +1,6 @@
 class AddressesController < ApplicationController
   before_action :set_address, only: %i[ show edit update destroy ]
-
+  skip_before_action :verify_authenticity_token
   # GET /addresses or /addresses.json
   def index
     @addresses = Address.all
