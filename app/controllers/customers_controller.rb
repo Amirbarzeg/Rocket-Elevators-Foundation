@@ -1,6 +1,6 @@
 class CustomersController < ApplicationController
   before_action :set_customer, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
+  
   # GET /customers or /customers.json
   def index
     @customers = Customer.all

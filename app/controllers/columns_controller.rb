@@ -1,6 +1,6 @@
 class ColumnsController < ApplicationController
   before_action :set_column, only: %i[ show edit update destroy ]
-  skip_before_action :verify_authenticity_token
+ 
   # GET /columns or /columns.json
   def index
     @columns = Column.all
