@@ -3,6 +3,8 @@
 
 CONSOLIDATION WEEK INFO
 
+My Rest_API repository: git@github.com:Amirbarzeg/Rocket_Elevators_Rest_API.git
+
 the password to login is "codeboxx"
 
 For my part, I implemented a  slack api with a very simple message.
