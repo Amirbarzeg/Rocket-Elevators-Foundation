@@ -1,14 +1,15 @@
 # Readme for the Rocket Elevators website at http://rocketelevatorsbest.xyz/
-=========================================================================================
+=========================================================
 CONSOLIDATION WEEK INFO
 
 the password to login is "codeboxx"
+
 For my part, I implemented a  slack api with a very simple message.
 Thank you!
 
 
 
-=========================================================================================
+=========================================================
 
 * Ruby version : ruby 2.6.6
 
