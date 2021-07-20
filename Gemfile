@@ -26,8 +26,7 @@ gem 'dropbox_api', '~> 0.1.19'
 gem 'figaro', '~> 1.2'
 gem 'faraday', '~> 1.4', '>= 1.4.3'
 gem 'oauth2', '~> 1.4', '>= 1.4.7'
-
-
+gem 'httparty'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
@@ -65,7 +64,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  
+  gem 'rspec-rails', '~> 4.1.0'
 end
 
 group :development do
