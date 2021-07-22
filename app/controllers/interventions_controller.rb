@@ -1,11 +1,29 @@
 class InterventionsController < ApplicationController
   before_action :set_intervention, only: %i[ show edit update destroy ]
+  before_action :NoAccess
   
   # GET /interventions or /interventions.json
   def index
     @interventions = Intervention.all
   end
+   
 
+
+  def NoAccess
+    if current_user
+      if current_user.is_Admin
+      else
+        respond_to do |format|
+         format.html {redirect_to root_path, notice: "Sign In First"}
+      end
+    end
+    else
+      respond_to do |format|
+        format.html {redirect_to (root_path + 'users/sign_in'), notice: "Sign In First"} 
+      end
+    end
+  end 
+    
   # GET /interventions/1 or /interventions/1.json
   def show
   end
