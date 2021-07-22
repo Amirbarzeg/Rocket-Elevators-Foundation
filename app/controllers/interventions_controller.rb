@@ -11,7 +11,7 @@ class InterventionsController < ApplicationController
 
   def NoAccess
     if current_user
-      if current_user.is_Admin
+      if current_user.has_role?(:admin)
       else
         respond_to do |format|
          format.html {redirect_to root_path, notice: "Sign In First"}
