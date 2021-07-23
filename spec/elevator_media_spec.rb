@@ -161,23 +161,5 @@ describe ElevatorMedia::Streamer do
          p page 
          end
       end
-      # describe "Quote", type: :features do
-      #    it "Test " do
-      #       visit 'quote'
-      #       within("quote") do
-      #          fill_in "quote_BuildingType", with: "Jack"
-      #          fill_in "quote_NumberOfFloors", with: "opiuyr" 
-      #          fill_in "quote_NumberOfElevators", with: "ba@hfj.com"
-      #          fill_in "quote_NumberOfApartments", with: "Jack" 
-      #          fill_in "quote_ProductLine", with: "Jackui"
-      #          fill_in "quote_ElevatorUnitCost", with: "Jackkopiu"
-      #          fill_in "quote_TotalPrice",	with: "jdhfohfifk"
-      #    end
-      #    click_button "Submit"
-      #    expect(page).to have_current_path '/index'
-      #    # expect(page).to have_content 'Success'
-      #    p page 
-      #    end
-      # end
    end
 

@@ -6,9 +6,6 @@ class InterventionsController < ApplicationController
   def index
     @interventions = Intervention.all
   end
-   
-
-
   def NoAccess
     if current_user
       if current_user.has_role?(:admin)
