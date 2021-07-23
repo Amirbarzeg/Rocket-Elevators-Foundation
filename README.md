@@ -1,8 +1,11 @@
 # Readme for the Rocket Elevators website at http://rocketelevatorsbest.xyz/
 =========================================================
 TDD
+
 the command to run all the tests: bundle exec rspec --format documentation
+
 =========================================================
+
 CONSOLIDATION WEEK INFO
 
 My Rest_API repository: git@github.com:Amirbarzeg/Rocket_Elevators_Rest_API.git
