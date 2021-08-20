@@ -9,7 +9,7 @@ gem 'rolify'
 gem 'devise'
 gem 'rails_admin', '~> 2.0'
 gem 'multiverse'
-gem 'pg', '>= 0.18', '< 2.0'
+//gem 'pg', '>= 0.18', '< 2.0'
 
 gem "zendesk_api"
 
