@@ -17,6 +17,7 @@ gem "zendesk_api"
 gem 'geocoder'
 
 gem 'gmaps4rails'
+gem "newrelic_rpm"
 
 
 gem 'ibm_watson', '~> 1.3.1'
